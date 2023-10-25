@@ -1,0 +1,57 @@
+Number - 1,2,3,...,
+String = 'hello world',
+List ['a','b','c'],
+Tuple ('a',2,true),
+Dictionary - {'a':'apple','b':'banana'}
+
+
+Number
+int
+float
+complex - real + imaginery, X+yj
+in python 3 there is no seperate 'long', all are long
+
+Oo - octal
+Ox - hexadecimal
+
+int, float, complex intercontertable
+
+
+// Mathimatical Functions
+abs(x)
+ceil(x)
+floor(x)
+exp(x)
+log(x)
+log10(x)
+max(x1,x2,...)
+min(x1, x2,...)
+pow(x,y) = x^y
+round(x,[,n])
+
+// Random Number Functions
+Choice(seq)
+randrange([start,] stop [,step])
+random()
+seed([x])
+shuffle(ist)
+uniform(x,y)
+
+// trignometry
+    x in radians
+    math.
+        sin(x)
+        cos(x)
+        tan(x)
+trignometry inverse
+    a - arc
+    asin(x)
+    acos(x)
+    atan(x)
+    atan2(x,y) : atan(y/x)
+
+// Mathematical const
+    Pi
+    e
+
+
