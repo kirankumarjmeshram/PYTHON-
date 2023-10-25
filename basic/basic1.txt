@@ -9,4 +9,36 @@ Python command line Arguments
     :args
     :Options
     : long_option
+
+OPERATOR
   
+arithmatic Operator
++
+-
+*
+/
+%
+** Exponent
+// floor division 9//2 = 4
+
+Bitwise Operator
+&
+| OR
+^ XOR
+~
+<<
+>>
+
+
+Logical Operator
+and
+OR
+not
+
+Membership Operator (test for membership in sequence, such as string, list, or tuple)
+in 
+not in
+
+Identity Operator (compare memory location)
+is : a =10; b=10; (a is b) True
+not is
