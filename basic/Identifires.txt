@@ -1,0 +1,5 @@
+_abc : private identifier
+
+__abc : strongly private
+
+__abc__ : magic method
