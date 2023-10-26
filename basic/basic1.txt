@@ -89,3 +89,13 @@ LOOP
 
         for key in dict.keys():
             print (key)
+
+    Loop Control Statements
+    - break
+    - continue
+    - pass
+
+Dictionary
+    del dict['name'] will remove element from dict whose key is 'name'
+    dict.clear()
+

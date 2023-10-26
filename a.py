@@ -9,6 +9,8 @@ for key in dict:
 
 for key, value in dict.items():
     print(key, value)
+    
+else: print('Hello World')
 
 for key in dict.keys():
     print (key)
