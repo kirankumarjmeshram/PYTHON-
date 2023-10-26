@@ -42,3 +42,50 @@ not in
 Identity Operator (compare memory location)
 is : a =10; b=10; (a is b) True
 not is
+
+Decision Making
+    non zero values are True 
+    0 or null false
+
+    if statement
+    if else
+    nested if
+
+if expression1:
+    statement(s)
+elif expression2:
+    ststement(s)
+elif expression3:
+    ststement(s)
+    else:
+        statement(s)
+
+
+LOOP
+    while Loop =>
+        count = 0;
+        while count<10:
+            count = count+1
+            print("count=",count)
+    
+    for loop =>
+        for letter in "Python":
+            print("Current letter :", letter)
+
+        
+        for loop with range
+        - range[([start],stop,[step])]
+
+        for num in range(5):
+            print(num)
+
+        dict = {'1':'Mumbai', '2':'Pune', '3':'Nagpur'}
+        
+        for key in dict:
+            print(dict[key])
+
+        for key, value in dict.items():
+            print(key, value)
+
+        for key in dict.keys():
+            print (key)
