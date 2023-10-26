@@ -1,0 +1,37 @@
+String basic Operator
+a = 'Hello'
+b = 'Python'
+
++ 
+* repetation : a*2 => HelloHello
+[] slice
+[:] range slice
+in, not in   Membership
+r/R Raw string
+
+
+String Formating
+%c
+%s
+%i
+%d
+%u
+%o
+%x
+%X
+%e
+%E 
+%f
+%g
+%G
+
+
+Python triple quotes
+''' '''
+    (\t) -> tab
+    [\n] -> new line
+
+
+
+
+
