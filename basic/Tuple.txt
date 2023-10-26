@@ -1,0 +1,10 @@
+tuple   
+    - sequence of immutable python objects
+    - cannot be changed unlike lists
+    - use (), but it is optional
+        tup1 = ('a', 'b', 'c', 1, 2, 3)
+        tup2 = (1, 2, 3, 4, 5)
+        tup3 = 'a', 'b', 'c', 'd'
+    - empty tuple tup4 = {} 
+    - single valued tuple tup5 = {98}
+
