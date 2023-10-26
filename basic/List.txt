@@ -1,0 +1,33 @@
+
+basic list operation
+
+a = [1,2,3]
+
+length  len(a)
+concatination    a+[4,5,6]
+repetation   a*4
+Membership    3 in a
+Iteration    for x in a: print x
+
+indexing, slicing, matrices
+a[2]
+a[-2]
+a[1:] : from index 1 to last
+
+list Methods
+append()
+clear()
+copy()
+count()
+extent()
+insert(i,'el')
+pop()
+remove()
+reverse()
+sort()
+
+Buit-in function
+len(a)
+max(a)
+min(a)
+list(seq) # convert a sequence into a list
