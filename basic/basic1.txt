@@ -97,5 +97,17 @@ LOOP
 
 Dictionary
     del dict['name'] will remove element from dict whose key is 'name'
-    dict.clear()
+    dict.clear
+
+
+Documentation string
+
+PARAMETER PASSING
+- pass by value and pass by reference
+- in python pass by referance
+
+- formal arguments - parameters use in defination
+- actual arguments - parameters that are pass 
+
+
 

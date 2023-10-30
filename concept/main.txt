@@ -1,0 +1,1 @@
+what is __name__ == __main__ in python
