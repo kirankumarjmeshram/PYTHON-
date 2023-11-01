@@ -13,5 +13,7 @@ print(var1.lower())
 print(var1.upper()) 
 print(var1.find('l')) 
 print(var1.replace('hello','Hi')) 
+print(var1.count('h')) #1
+print(var1.capitalize()) #Hello world
 
 
