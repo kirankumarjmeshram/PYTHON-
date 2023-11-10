@@ -1,3 +1,10 @@
+
+Data Types
+    Immutable : str , int, float, bool, bytes, tuple
+    Mutable: list, set, dict
+
+
+
 Quotation
 
 '', "", ''' ''',
