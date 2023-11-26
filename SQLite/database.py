@@ -7,13 +7,21 @@ conn = sqlite3.connect('customer.db')
 c = conn.cursor()
 
 #create a table
-c.execute("""CREATE TABLE customers (
-           first_name text,
-           last_name text,
-           email text
-)""")
+# c.execute("""CREATE TABLE customers (
+#            first_name text,
+#            last_name text,
+#            email text
+# )""")
 
 # c.execute("""CREATE TABLE customers (  first_name DATATYPE, last_name DATATYPE, email DATATYPE)""")
+#insert one record at a time
+c.execute("INSERT INTO customers VALUES ('Kirankumar J','M','kiranjm@gmail.com')")
+
+
+
+print("Command executed successfully...")
+
+
 
 #commit our command
 conn.commit()
