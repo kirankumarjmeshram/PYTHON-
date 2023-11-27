@@ -16,17 +16,26 @@ c = conn.cursor()
 # c.execute("""CREATE TABLE customers (  first_name DATATYPE, last_name DATATYPE, email DATATYPE)""")
 
 #insert one record at a time
-c.execute("INSERT INTO customers VALUES ('Kirankumar J','M','kiranjm@gmail.com')")
+# c.execute("INSERT INTO customers VALUES ('Kirankumar J','M','kiranjm@gmail.com')")
 
 #insert many record at a time
-many_customers = [
-                  ('first_name1','last_name1','name1@gmail.com'),
-                  ('first_name2','last_name2','name2@gmail.com'),
-                  ('first_name3','last_name3','name3@gmail.com')
-                  ]
-c.executemany("INSERT INTO customers VALUES (?,?,?)", many_customers)
+# many_customers = [
+#                   ('first_name1','last_name1','name1@gmail.com'),
+#                   ('first_name2','last_name2','name2@gmail.com'),
+#                   ('first_name3','last_name3','name3@gmail.com')
+#                   ]
+# c.executemany("INSERT INTO customers VALUES (?,?,?)", many_customers)
 
-print("Command executed successfully...")
+# print("Command executed successfully...")
+
+#QUERY THE DATABASE
+c.execute("SELECT * FROM customers")
+# print(c.fetchone())
+# print(c.fetchone()[0])
+# print(c.fetchmany(3))
+items = c.fetchall()
+for item in items:
+    print(item)
 
 
 
