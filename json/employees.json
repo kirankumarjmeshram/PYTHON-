@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Alice",
+        "languages": [
+            "Java",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Bobby Deol Anna",
+        "languages": [
+            "Python",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Carl",
+        "languages": [
+            "Typescript",
+            "JavaScript"
+        ]
+    }
+]
