@@ -35,3 +35,10 @@ dict = {'a':5, 'b':6}
 
 func(**dict)
 #5 6
+
+# Initializing empty spaces
+
+a_list = list()
+a_dict = dict()
+a_map = map()
+a_set = set()
