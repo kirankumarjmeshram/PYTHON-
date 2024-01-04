@@ -1,5 +1,5 @@
 # constructor overloading or method overloding is not applicable in python
-# only latest one constructor willl woek
+# only latest one constructor willl work
 class Test:
     # not work
     def __init__(self, x): 
