@@ -1,5 +1,5 @@
 # A static method in Python is a function defined within a class, marked with @staticmethod, which can be called without creating an instance of the class. It operates independently of instance or class-specific data, often used for utility functions within the class namespace.
-
+# you do not write self in the parameter list of a static method. A static method does not take self (which refers to the instance of the class) or cls (which refers to the class itself) as its first parameter. Instead, it is defined like a regular function within the class.
 
 # With static decorator
 class MathUtils:
